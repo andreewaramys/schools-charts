@@ -1,6 +1,6 @@
 import logoParnamirim from "../../assets/logo-parnamirim.svg";
 import logoGtiFundoBranco from "../../assets/logo-fundo-branco-texto.png";
-import logoSme from "../../assets/logo_sme.svg";
+import logoSme from "../../assets/logo-sme.svg";
 
 import "./header.css";
 import { Link } from "react-router-dom";

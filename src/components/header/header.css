@@ -4,7 +4,7 @@
   justify-content: space-between;
   height: 5.5rem;
   background-color: #ffff;
-  box-shadow: 0 -.019rem .375rem #00000040;
+  box-shadow: 0 -0.019rem 0.375rem #00000040;
   padding: 0 4.5rem;
 }
 
@@ -13,12 +13,9 @@
   gap: 1rem;
 }
 
-.header__img {
-  width: 12rem;
-}
-
+.header__img,
 .header__img--sme {
-  width: 2.5rem;
+  width: 12rem;
 }
 
 .header__img--year {
@@ -54,7 +51,7 @@
   .header__img {
     width: 8rem;
   }
-  
+
   .header__img--sme {
     width: 1.5rem;
   }
