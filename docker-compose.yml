@@ -4,5 +4,5 @@ services:
   schools-charts:
     build: .
     ports:
-      - "3052:3052"
+      - "3052:80"
     restart: unless-stopped
