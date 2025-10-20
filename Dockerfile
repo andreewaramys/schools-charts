@@ -8,5 +8,5 @@ FROM node:18-alpine
 WORKDIR /schools-charts
 RUN npm install -g serve
 COPY --from=builder /schools-charts/dist ./dist
-EXPOSE 3052
+EXPOSE 80
 CMD ["serve", "-s", "dist", "-l", "3052"]
